@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for converting markdown to html script.
+Module to convert markdown to html script.
 """
 from sys import argv, stderr
 from os.path import exists
