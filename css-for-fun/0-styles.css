@@ -1,0 +1,37 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    background-color: #f7f7f7;
+    list-style: none;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/d416199ca6ecdbd0f8a3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220730T041103Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f19ebba819a650cfb88368b1f5593df2adc8faadf0f1c638538251f6aa066b1");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+}
+
+li span.i-html {
+    background-position: left center;
+}
+
+li span.i-css {
+    background-position: center;
+}
+
+li span.i-js {
+    background-position: right center;
+}
